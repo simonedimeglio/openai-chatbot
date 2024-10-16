@@ -1,5 +1,7 @@
 # AI-Chatbot
 
+![Screenshot 2024-10-16 alle 10 25 43](https://github.com/user-attachments/assets/9ac93f95-325a-44f1-84a7-fee6cfba785b)
+
 Detailed explanation for each step of the code:
 
 ## 1 - Importing libraries
