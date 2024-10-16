@@ -1,5 +1,7 @@
 # AI-Chatbot
 
+![Screenshot 2024-10-16 alle 10 25 43](https://github.com/user-attachments/assets/f331c99b-4456-4824-bf18-becbde5f845b)
+
 Spiegazione dettagliata per ciascun passaggio del codice:
 
 ## 1 - Importazione delle librerie
