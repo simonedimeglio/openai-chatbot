@@ -81,3 +81,15 @@ Qui stiamo usando una **IIFE** (_Immediately Invoked Function Expression_), che 
 - **`userInput`**: Definiamo una variabile con l’input dell’utente, in questo caso una richiesta di scrivere un haiku sulla ricorsione nella programmazione.
 - **`getChatbotResponse`**: Chiamiamo la funzione che abbiamo creato per ottenere la risposta dal chatbot, passandole l’input dell’utente.
 - **`console.log`**: Una volta ottenuta la risposta, la stampiamo nella console con console.log per vederla
+
+```ts
+// Esempio di utilizzo della funzione chatbot
+// Stiamo usando una IIFE (Immediately Invoked Function Expression) per poter usare async/await
+(async () => {
+  const userInput = "Write a haiku about recursion in programming.";
+  const chatbotResponse = await getChatbotResponse(userInput);
+
+  // Stampiamo la risposta del chatbot nella console
+  console.log("Risposta chatbot:", chatbotResponse);
+})();
+```
