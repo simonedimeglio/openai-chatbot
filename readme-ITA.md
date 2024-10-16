@@ -49,6 +49,8 @@ Questa funzione è asincrona perché deve fare una richiesta esterna all’API d
 
 **`completion.choices[0].message.content`**: L’API di OpenAI restituisce un oggetto chiamato **completion**, che contiene un array chiamato **choices**. Ogni scelta rappresenta una possibile risposta generata dal modello. Prendiamo la prima risposta (`choices[0]`) e restituiamo il suo contenuto (`message.content`), che è la risposta del chatbot.
 
+Nella maggior parte dei casi, l'API di OpenAI genera una sola risposta per ogni richiesta, quindi l'array `choices` contiene di solito un solo elemento. Ecco perché prendiamo `choices[0]`. Tuttavia, è possibile richiedere più risposte alternative in una singola chiamata API. (_Questo si fa impostando il parametro `n` nella richiesta API_).
+
 ```ts
 // Funzione per ottenere una risposta dal chatbot
 async function getChatbotResponse(userInput: string) {
